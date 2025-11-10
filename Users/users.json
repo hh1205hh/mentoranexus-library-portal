@@ -1,0 +1,93 @@
+[
+    {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "johndoe@gmail.com",
+        "username": "john1234",
+        "password": "$2y$10$hTMFTBR5p\/G5LY7dq3LBFu2ZOKWNCsaR87diXLzbBLAl8fIqc6htG"
+    },
+    {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "janesmith@gmail.com",
+        "username": "jane1234",
+        "password": "$2y$10$niXJerngxfbJTnMuhL\/mhOTr\/OUGw7gbLv5x6hCLZC7vy3gYwLsKK"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonder",
+        "email": "alicewonder@gmail.com",
+        "username": "alice1234",
+        "password": "$2y$10$zSlGMJYSwv4IiyguMMrDZOvuQtpleJ\/Pr0e5SqKw8i2x\/YAiaxyDC"
+    },
+    {
+        "first_name": "Alic",
+        "last_name": "Wonde",
+        "email": "alicewonde@gmail.com",
+        "username": "alicewonde@gmail.com",
+        "password": "$2y$10$00e77qDqVIpa0GfA0PLpsOHHyzvwjID95ehuNSo\/ESVwdyTGA6iMW"
+    },
+    {
+        "first_name": "Alic",
+        "last_name": "Wonde",
+        "email": "alicewoer@gmail.com",
+        "username": "alicewone@gmail.com",
+        "password": "$2y$10$bt7BQiEFfcBYHWBoEicgl.8yTqvQAo6WNccCFgb1P5sPmp5gjHTaa"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "aliwonder@gmail.com",
+        "username": "alicewode@gmail.com",
+        "password": "$2y$10$n9djY27A4wI5UYm94S7ggu7DBL4631w2tKfdj7mQUE0xl\/NqhA72G"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "aliwondr@gmail.com",
+        "username": "alicede@gmail.com",
+        "password": "$2y$10$yDXLuRbffdz7yZ5aoDWZUumgRKStfNYgAUkVsgP0\/0UTCiybo\/EiS"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "al@gmail.com",
+        "username": "aliceonde@gmail.com",
+        "password": "$2y$10$gqLeyG0mjny3S432TL\/f\/.SBlkf4jpMaz4Afa47dEuNoNdEb9u9J."
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "lr@gmail.com",
+        "username": "alicwonde@gmail.com",
+        "password": "$2y$10$1U3TgESDZNMQkK7p.8MdzOsbmC5ZP0x.Hloa2mRsLspR\/fPA2l4gq"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "uuulr@gmail.com",
+        "username": "aliconde@gmail.com",
+        "password": "$2y$10$tu38USUjM7hbVyGL6dilwOa3pLHbaIClc7w0E\/G6EcoXEP9U5xaCq"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "alryy@gmail.com",
+        "username": "acode@gmail.com",
+        "password": "$2y$10$UuBRUAA65FZUHpoLBwCGfOOMbAgIs8exIG7XzzFQYmmvumGAPLg7K"
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Wonde",
+        "email": "alryyyy@gmail.com",
+        "username": "acod@gmail.com",
+        "password": "$2y$10$0O5uvNnz42cY9VtfMp7pzurxbQ34b00SidC5iwMWramIKPAQt6pmC"
+    },
+    {
+        "first_name": "David",
+        "last_name": "Jhon",
+        "email": "aaa@gmail.com",
+        "username": "Haim123",
+        "password": "$2y$10$YXm5h86niHV8Xtdxo9ceT.khKQoOxPjR2v8JdEXpk1K3vYLrfxIdy"
+    }
+]

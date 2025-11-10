@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link href="../css/signup.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>User Registration</h2>
+        <form action="register.php" method="POST" onsubmit="return validateForm()">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first_name" placeholder="John" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Doe" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="234567890" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Login Details</legend>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8" required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm_password" placeholder="Re-enter your password" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Terms & Submit</legend>
+
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="/" target="_blank">Terms and Conditions</a>.</label>
+                </div>
+
+                <button type="submit">Register</button>
+            </fieldset>
+        </form>
+    </div>
+
+        <script>
+            function verifyAge() {
+                const ageInput = document.getElementById("age");
+                const ageValue = ageInput.value.trim();
+                const age = Number(ageValue);
+
+                if (Number.isInteger(age) && age >= 0 && age <= 99) {
+                    return true; 
+                } else {
+                    alert("Invalid age. Please enter a whole number between 0 and 99.");
+                    ageInput.focus();
+                    return false;
+                }
+            }
+
+            function verifyPhoneNumber() {
+                const phoneInput = document.getElementById("phone");
+                const phone = phoneInput.value.trim();
+
+                if (/^\d{9}$/.test(phone)) {
+                    return true;
+                } else {
+                    alert("Invalid phone number. Please enter exactly 9 digits (no spaces or symbols).");
+                    phoneInput.focus();
+                    return false;
+                }
+            }
+
+            function validateForm() {
+                return verifyAge() && verifyPhoneNumber();
+            }
+        </script>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,97 @@
+
+    header {
+        background-color: #333;
+        padding: 1em 2em;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 100px;
+    }
+
+    .search-box {
+        flex-grow: 1;
+        margin: 0 2em;
+        display: flex;
+        min-width: 20em;
+        max-width: 30em;
+        min-height: 2em;
+        text-align: center;
+    }
+
+    .search-box input[type="text"] {
+        flex-grow: 1;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+
+    .search-box button {
+        padding: 0.5em 1em;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        min-width: 2em;
+        max-width: 8em;
+        min-height: 2em;
+        max-height: 2.75em;
+    }
+
+    .search-box button:hover {
+        background-color: #0056b3;
+    }
+
+    header .user-actions a {
+        margin: 0 0.5em;
+        text-decoration: none;
+        color: white;
+    }
+
+    header .user-actions a:hover {
+        text-decoration: none;
+        background-color: #007bff;
+        border-radius: 10px; 
+        padding: 0px;
+    }
+
+    header .user-actions form button {
+        margin: 0 0.5em;
+        text-decoration: none;
+        color: white;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        background-color: #333;
+    }
+
+    header .user-actions form button:hover {
+        background-color: #007bff;
+        border-radius: 10px;
+        padding: 10px; 
+        text-decoration: none; 
+        cursor: pointer;
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 70px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 0.5em;
+    }

@@ -1,0 +1,143 @@
+    
+    #content {
+        background-image: url("../Images/A-stack-of-cs-books.png");
+        background-size: 400px 400px;
+        background-position: right;
+        display: flex;
+        gap: 0px;
+    }
+
+    #content .article {
+        width: 50%;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #content .article h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        color: black;
+        line-height: 1.2em;
+    }
+
+    #content .article p {
+        line-height: 1.8;
+        font-size: 18px;
+        color: black;
+    }
+
+    aside {
+        width: 20%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        min-width: 10em;
+    }
+
+    aside h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    aside ul {
+        list-style: disc;
+        padding: 0;
+    }
+
+    aside ul li {
+        margin-bottom: 10px;
+    }
+
+    aside ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    aside ul li a:hover {
+        color: blue;
+        text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    aside ul li a.active {
+        color: blue;
+    }
+
+    .authers {
+        text-transform: capitalize;
+        font-style: italic;
+    }
+
+    figure {
+        padding: 10px;
+        margin: 25px;
+        text-align: center;
+    }
+
+    figure img {
+        /* max-width: 100%;
+        height: auto;
+        margin: 0 auto; */
+        height: 300px;
+    }
+
+    figcaption {
+        font-size: 1.1em;
+        color: #555;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #content .container {
+        width: 800px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .container h2 {
+        text-align: center;
+        color: #333;
+        padding: 20px;
+        background-color: #008cba;
+        color: white;
+    }
+
+    .container ul {
+        list-style-type: none;
+        margin: 20px;
+        padding: 0;
+    }
+
+    .container li {
+        background-color: #fff;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .container a {
+        text-decoration: none;
+        color: #008cba;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .container a:hover {
+        color: #005fff;
+        cursor: pointer;
+    }
+
+    .container p {
+        font-size: 16px;
+        color: #666;
+    }
+
+    .container li:hover {
+        background-color: #e7f3f5;
+    }
