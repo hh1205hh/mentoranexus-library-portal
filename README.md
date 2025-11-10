@@ -25,7 +25,7 @@ The project is a dynamic website that is currently evolving from its original "L
 
 ## Future Improvements
 
-This project is actively under development. Planned enhancements include:
+This project is under development. Planned enhancements include:
 
   * **SQL Database:** Migrating the user and product data from flat files (like `users.json`) to a robust SQL database (e.g., MySQL or PostgreSQL) for scalability.
   * **Interactive UI:** Enhancing the frontend with JavaScript for a more dynamic and responsive user experience.
