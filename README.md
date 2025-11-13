@@ -30,7 +30,7 @@ The project is a dynamic website that is currently evolving from its original "L
 
 This project is under development. Planned enhancements include:
 
-  * **SQL Database:** Migrating the user and product data from flat files (like `users.json`) to a robust SQL database (e.g., MySQL or PostgreSQL) for scalability.
+  - [ ] SQL Database:** Migrating the user and product data from flat files (like `users.json`) to a robust SQL database (e.g., MySQL or PostgreSQL) for scalability.
   - [ ] Interactive UI:** Enhancing the frontend with JavaScript for a more dynamic and responsive user experience.
   - [ ] Search Box:** Implementing a functional search feature to allow users to find books by title, author, or category.
   - [ ] Shopping Cart:** Building a complete e-commerce shopping cart and checkout system.
