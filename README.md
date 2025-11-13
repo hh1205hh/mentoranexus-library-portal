@@ -1,3 +1,6 @@
+> [!NOTE]
+> This project is not in its final form. 
+
 # Mentora Nexus - Online Bookstore Portal
 
 This is the official web application for `mentoranexus.com`, the fictional company from the "Enterprise Network Design" project. This application is the user-facing portal, designed to be hosted on the HTTP server (10.60.111.103) within that network.
